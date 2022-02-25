@@ -15,7 +15,7 @@ class RegisterPage extends StatelessWidget {
         body: SafeArea(
           child: SingleChildScrollView(
             physics: const BouncingScrollPhysics(),
-            child: Container(
+            child: SizedBox(
               height: MediaQuery.of(context).size.height * 0.9,
               child: Column(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
