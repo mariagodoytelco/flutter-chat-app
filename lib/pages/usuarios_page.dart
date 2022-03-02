@@ -24,7 +24,7 @@ class _UsuariosPageState extends State<UsuariosPage> {
         appBar: AppBar(
           title: Text(
             'Mi nombre',
-            style: TextStyle(color: Colors.black54),
+            style: const TextStyle(color: Colors.black54),
           ),
           elevation: 1,
           centerTitle: true,
